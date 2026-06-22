@@ -22,8 +22,12 @@ ackermann_steering_controller:
     velocity_rolling_window_size: 10
     position_feedback: false
     use_stamped_vel: false
-    rear_wheels_names: [re_right_joint, re_left_joint]
-    front_wheels_names: [fr_steer_right_joint, fr_steer_left_joint]
+    rear_wheels_names:
+      - re_right_joint
+      - re_left_joint
+    front_wheels_names:
+      - fr_steer_right_joint
+      - fr_steer_left_joint
 
     wheelbase: 0.650
     front_wheel_track: 0.605

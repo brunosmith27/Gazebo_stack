@@ -85,7 +85,7 @@
     
       <gazebo>
         <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
-          <parameters>$(find hunter_control)/config/ackermann_steering_controller_params.yaml</parameters>
+          <parameters>/home/bruno/ros2_ws/install/hunter_control/share/hunter_control/config/ackermann_steering_controller_params.yaml</parameters>
         </plugin>
       </gazebo>
 
