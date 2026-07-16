@@ -26,7 +26,14 @@ endif()
 install(PROGRAMS
   src/wasd_teleop.py
   src/obstacle_detector.py
+  src/object_distance_viewer.py
+  src/spawn_person.py
   DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY
+  models
+  DESTINATION share/${PROJECT_NAME}
 )
 
 ament_package()
