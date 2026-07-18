@@ -28,6 +28,7 @@ install(PROGRAMS
   src/obstacle_detector.py
   src/object_distance_viewer.py
   src/spawn_person.py
+  src/person_stop_controller.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
