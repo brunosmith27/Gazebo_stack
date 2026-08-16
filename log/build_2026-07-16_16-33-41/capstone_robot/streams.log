@@ -1,0 +1,27 @@
+[0.029s] Invoking command in '/home/feroj/ros2_ws/build/capstone_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/feroj/ros2_ws/build/capstone_robot -- -j16 -l16
+[0.222s] Invoked command in '/home/feroj/ros2_ws/build/capstone_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/feroj/ros2_ws/build/capstone_robot -- -j16 -l16
+[0.231s] Invoking command in '/home/feroj/ros2_ws/build/capstone_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/feroj/ros2_ws/build/capstone_robot
+[0.238s] -- Install configuration: ""
+[0.238s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/lib/capstone_robot/wasd_teleop.py
+[0.239s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/lib/capstone_robot/obstacle_detector.py
+[0.240s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/lib/capstone_robot/object_distance_viewer.py
+[0.241s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models
+[0.242s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models/coco.names
+[0.242s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models/yolov4-tiny.weights
+[0.244s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models/yolov4-tiny.cfg
+[0.244s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/ament_index/resource_index/package_run_dependencies/capstone_robot
+[0.244s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/ament_index/resource_index/parent_prefix_path/capstone_robot
+[0.245s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/environment/ament_prefix_path.sh
+[0.245s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/environment/ament_prefix_path.dsv
+[0.245s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/environment/path.sh
+[0.249s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/environment/path.dsv
+[0.249s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/local_setup.bash
+[0.249s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/local_setup.sh
+[0.250s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/local_setup.zsh
+[0.250s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/local_setup.dsv
+[0.250s] -- Installing: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/package.dsv
+[0.251s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/ament_index/resource_index/packages/capstone_robot
+[0.251s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/cmake/capstone_robotConfig.cmake
+[0.251s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/cmake/capstone_robotConfig-version.cmake
+[0.253s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/package.xml
+[0.256s] Invoked command in '/home/feroj/ros2_ws/build/capstone_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/feroj/ros2_ws/build/capstone_robot

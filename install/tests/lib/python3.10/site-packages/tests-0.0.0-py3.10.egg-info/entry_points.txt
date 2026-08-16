@@ -1,0 +1,15 @@
+[console_scripts]
+IMU_node = tests.IMU_node:main
+abd_collivoid_node = tests.abd_collivoid_node:main
+abd_stannav_node = tests.abd_stannav_node:main
+collision_avoidance_node = tests.collision_avoidance_node:main
+gps_subscriber_node = tests.gps_subscriber_node:main
+navigation_node = tests.navigation_node:main
+path_generator_node = tests.path_generator_node:main
+path_perimeter_node = tests.path_perimeter_node:main
+path_planning_node = tests.path_planning_node:main
+pose_calculator_node = tests.pose_calculator_node:main
+robot_teleop_node = tests.robot_teleop_node:main
+stanly_navigation_node = tests.stanly_navigation_node:main
+stanly_navigation_node_original = tests.stanly_navigation_node_original:main
+

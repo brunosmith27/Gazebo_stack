@@ -1,0 +1,6 @@
+Invoking command in '/home/feroj/ros2_ws/build/hunter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/feroj/ros2_ws/src/Hunter_ROS2/hunter_description -DCMAKE_INSTALL_PREFIX=/home/feroj/ros2_ws/install/hunter_description
+Invoked command in '/home/feroj/ros2_ws/build/hunter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/feroj/ros2_ws/src/Hunter_ROS2/hunter_description -DCMAKE_INSTALL_PREFIX=/home/feroj/ros2_ws/install/hunter_description
+Invoking command in '/home/feroj/ros2_ws/build/hunter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/feroj/ros2_ws/build/hunter_description -- -j16 -l16
+Invoked command in '/home/feroj/ros2_ws/build/hunter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/feroj/ros2_ws/build/hunter_description -- -j16 -l16
+Invoking command in '/home/feroj/ros2_ws/build/hunter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/feroj/ros2_ws/build/hunter_description
+Invoked command in '/home/feroj/ros2_ws/build/hunter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/feroj/ros2_ws/build/hunter_description
