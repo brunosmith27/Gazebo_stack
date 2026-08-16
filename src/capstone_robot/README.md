@@ -95,7 +95,3 @@ python3 src/train_avoidance_model.py \
   --source fused_obstacle_avoider   # exclude any learned_avoider-generated rows
 python3 src/evaluate_model.py --data ~/capstone_avoidance_data/*.csv
 ```
-
-See `DATA_SUMMARY.md` for what data currently backs `models/avoidance_mlp.npz`
-and its known gaps, and `MODEL_UPGRADE_PLAN.md` for when/how to move past the
-current small-MLP approach.
