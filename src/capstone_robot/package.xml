@@ -3,8 +3,13 @@
 <package format="3">
   <name>capstone_robot</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="bruno@todo.todo">bruno</maintainer>
+  <description>
+    Simulated Ackermann-steered robot in Gazebo with camera-based obstacle
+    avoidance: RGB/depth perception, YOLOv4-tiny person detection, a
+    hand-coded rule-based avoider, and an imitation-learned NumPy MLP
+    alternative trained on logged driving data.
+  </description>
+  <maintainer email="feroj21@gmail.com">Feroj</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

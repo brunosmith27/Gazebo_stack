@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "capstone_robot")
 set(capstone_robot_VERSION "0.0.0")
-set(capstone_robot_MAINTAINER "bruno <bruno@todo.todo>")
+set(capstone_robot_MAINTAINER "Feroj <feroj21@gmail.com>")
 set(capstone_robot_BUILD_DEPENDS )
 set(capstone_robot_BUILDTOOL_DEPENDS "ament_cmake")
 set(capstone_robot_BUILD_EXPORT_DEPENDS )
