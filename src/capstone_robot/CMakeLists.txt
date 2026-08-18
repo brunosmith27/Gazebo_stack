@@ -33,6 +33,7 @@ install(PROGRAMS
   src/data_logger.py
   src/train_avoidance_model.py
   src/learned_avoider.py
+  src/evaluate_model.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

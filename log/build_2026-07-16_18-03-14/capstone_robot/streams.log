@@ -1,0 +1,29 @@
+[0.008s] Invoking command in '/home/feroj/ros2_ws/build/capstone_robot': /usr/bin/cmake --build /home/feroj/ros2_ws/build/capstone_robot -- -j16 -l16
+[0.069s] Invoked command in '/home/feroj/ros2_ws/build/capstone_robot' returned '0': /usr/bin/cmake --build /home/feroj/ros2_ws/build/capstone_robot -- -j16 -l16
+[0.078s] Invoking command in '/home/feroj/ros2_ws/build/capstone_robot': /usr/bin/cmake --install /home/feroj/ros2_ws/build/capstone_robot
+[0.084s] -- Install configuration: ""
+[0.085s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/lib/capstone_robot/wasd_teleop.py
+[0.085s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/lib/capstone_robot/obstacle_detector.py
+[0.085s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/lib/capstone_robot/object_distance_viewer.py
+[0.085s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/lib/capstone_robot/spawn_person.py
+[0.086s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models
+[0.086s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models/coco.names
+[0.086s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models/yolov4-tiny.weights
+[0.086s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models/person.sdf
+[0.086s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models/yolov4-tiny.cfg
+[0.086s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/ament_index/resource_index/package_run_dependencies/capstone_robot
+[0.086s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/ament_index/resource_index/parent_prefix_path/capstone_robot
+[0.086s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/environment/ament_prefix_path.sh
+[0.086s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/environment/ament_prefix_path.dsv
+[0.088s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/environment/path.sh
+[0.088s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/environment/path.dsv
+[0.090s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/local_setup.bash
+[0.090s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/local_setup.sh
+[0.090s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/local_setup.zsh
+[0.090s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/local_setup.dsv
+[0.091s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/package.dsv
+[0.091s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/ament_index/resource_index/packages/capstone_robot
+[0.091s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/cmake/capstone_robotConfig.cmake
+[0.092s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/cmake/capstone_robotConfig-version.cmake
+[0.092s] -- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/package.xml
+[0.093s] Invoked command in '/home/feroj/ros2_ws/build/capstone_robot' returned '0': /usr/bin/cmake --install /home/feroj/ros2_ws/build/capstone_robot

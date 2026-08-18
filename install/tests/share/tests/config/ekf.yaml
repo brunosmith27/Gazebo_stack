@@ -1,0 +1,33 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 30.0  # Update frequency in Hz
+    two_d_mode: true  # Use 2D mode (flat terrain)
+    print_diagnostics: true  # Enable debugging diagnostics
+
+    odom0: /ackermann_steering_controller/odometry
+    odom0_config: [true, true, false,  # Use x, y position; ignore z
+                   false, false, false,  # Ignore orientation
+                   true, true, false,  # Use x, y velocity; ignore z velocity
+                   false, false, false]  # Ignore angular velocity
+    odom0_differential: false
+    odom0_relative: true
+
+    imu0: /camera/imu/imu_plugin/out
+    imu0_config: [false, false, false,  # Ignore x, y, z position
+                  true, true, true,  # Use roll, pitch, yaw (orientation)
+                  false, false, false,  # Ignore x, y, z velocity
+                  true, true, true]  # Use angular velocities
+    imu0_differential: false
+    imu0_relative: false
+
+    gps0: /gps/gps_plugin/out
+    gps0_config: [true, true, false,  # Use latitude, longitude; ignore altitude
+                  false, false, false,  # Ignore orientation
+                  false, false, false,  # Ignore velocities
+                  false, false, false]  # Ignore angular velocities
+    gps0_differential: false
+    gps0_relative: false
+
+    world_frame: map  # The global reference frame
+    odom_frame: odom  # Odometry frame
+    base_link_frame: base_link  # The robot's base frame

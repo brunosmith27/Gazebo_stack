@@ -1,0 +1,6 @@
+Invoking command in '/home/feroj/ros2_ws/build/ugv_sdk': /usr/bin/cmake /home/feroj/ros2_ws/src/UGV_SDK -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/feroj/ros2_ws/install/ugv_sdk
+Invoked command in '/home/feroj/ros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake /home/feroj/ros2_ws/src/UGV_SDK -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/feroj/ros2_ws/install/ugv_sdk
+Invoking command in '/home/feroj/ros2_ws/build/ugv_sdk': /usr/bin/cmake --build /home/feroj/ros2_ws/build/ugv_sdk -- -j16 -l16
+Invoked command in '/home/feroj/ros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/feroj/ros2_ws/build/ugv_sdk -- -j16 -l16
+Invoking command in '/home/feroj/ros2_ws/build/ugv_sdk': /usr/bin/cmake --install /home/feroj/ros2_ws/build/ugv_sdk
+Invoked command in '/home/feroj/ros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/feroj/ros2_ws/build/ugv_sdk

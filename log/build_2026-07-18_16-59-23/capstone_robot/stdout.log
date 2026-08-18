@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/lib/capstone_robot/wasd_teleop.py
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/lib/capstone_robot/obstacle_detector.py
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/lib/capstone_robot/object_distance_viewer.py
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/lib/capstone_robot/spawn_person.py
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/lib/capstone_robot/person_stop_controller.py
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models/coco.names
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models/yolov4-tiny.weights
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models/person.sdf
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/models/yolov4-tiny.cfg
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/ament_index/resource_index/package_run_dependencies/capstone_robot
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/ament_index/resource_index/parent_prefix_path/capstone_robot
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/environment/path.sh
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/environment/path.dsv
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/local_setup.bash
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/local_setup.sh
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/local_setup.zsh
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/local_setup.dsv
+-- Installing: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/package.dsv
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/ament_index/resource_index/packages/capstone_robot
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/cmake/capstone_robotConfig.cmake
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/cmake/capstone_robotConfig-version.cmake
+-- Up-to-date: /home/feroj/ros2_ws/install/capstone_robot/share/capstone_robot/package.xml

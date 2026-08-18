@@ -1,0 +1,4 @@
+source;share/capstone_robot/local_setup.bash
+source;share/capstone_robot/local_setup.dsv
+source;share/capstone_robot/local_setup.sh
+source;share/capstone_robot/local_setup.zsh

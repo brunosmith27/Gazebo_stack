@@ -1,0 +1,135 @@
+running egg_info
+creating ../../build/tests/tests.egg-info
+writing ../../build/tests/tests.egg-info/PKG-INFO
+writing dependency_links to ../../build/tests/tests.egg-info/dependency_links.txt
+writing entry points to ../../build/tests/tests.egg-info/entry_points.txt
+writing requirements to ../../build/tests/tests.egg-info/requires.txt
+writing top-level names to ../../build/tests/tests.egg-info/top_level.txt
+writing manifest file '../../build/tests/tests.egg-info/SOURCES.txt'
+reading manifest file '../../build/tests/tests.egg-info/SOURCES.txt'
+writing manifest file '../../build/tests/tests.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/feroj/ros2_ws/build/tests/build
+creating /home/feroj/ros2_ws/build/tests/build/lib
+creating /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/navigation_node_v4.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/abd_stannav_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/collision_avoidance_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/path_generator_node_original.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/navigation_node_v3.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/stanly_navigation_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/path_planning_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/stanly_navigation_node (copy).py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/discord_zigzag_test_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/ACTUAL stanly_navigation_node_original.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/stanly_navigation_node_original.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/path_perimeter_node_original.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/collision_avoidance_node (copy).py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/abd_collivoid_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/updated_collision_avoidance_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/__init__.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/navigation_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/robot_teleop_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/stanly_navigation_node (another copy).py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/navigation_node_v2.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/pose_calculator_node (copy).py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/pose_calculator_node (another copy).py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/path_perimeter_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/IMU_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/stanly_navigation_node_copy.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/pose_calculator_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/gps_subscriber_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/path_generator_node (copy).py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/navigation_node_v1.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+copying tests/path_generator_node.py -> /home/feroj/ros2_ws/build/tests/build/lib/tests
+running install
+running install_lib
+creating /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/navigation_node_v4.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/abd_stannav_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/collision_avoidance_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/path_generator_node_original.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/navigation_node_v3.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/stanly_navigation_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/path_planning_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/stanly_navigation_node (copy).py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/discord_zigzag_test_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/ACTUAL stanly_navigation_node_original.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/stanly_navigation_node_original.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/path_perimeter_node_original.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/collision_avoidance_node (copy).py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/abd_collivoid_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/updated_collision_avoidance_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/__init__.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/navigation_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/robot_teleop_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/stanly_navigation_node (another copy).py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/navigation_node_v2.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/pose_calculator_node (copy).py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/pose_calculator_node (another copy).py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/path_perimeter_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/IMU_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/stanly_navigation_node_copy.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/pose_calculator_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/gps_subscriber_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/path_generator_node (copy).py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/navigation_node_v1.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+copying /home/feroj/ros2_ws/build/tests/build/lib/tests/path_generator_node.py -> /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/navigation_node_v4.py to navigation_node_v4.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/abd_stannav_node.py to abd_stannav_node.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/collision_avoidance_node.py to collision_avoidance_node.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/path_generator_node_original.py to path_generator_node_original.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/navigation_node_v3.py to navigation_node_v3.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/stanly_navigation_node.py to stanly_navigation_node.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/path_planning_node.py to path_planning_node.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/stanly_navigation_node (copy).py to stanly_navigation_node (copy).cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/discord_zigzag_test_node.py to discord_zigzag_test_node.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/ACTUAL stanly_navigation_node_original.py to ACTUAL stanly_navigation_node_original.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/stanly_navigation_node_original.py to stanly_navigation_node_original.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/path_perimeter_node_original.py to path_perimeter_node_original.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/collision_avoidance_node (copy).py to collision_avoidance_node (copy).cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/abd_collivoid_node.py to abd_collivoid_node.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/updated_collision_avoidance_node.py to updated_collision_avoidance_node.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/navigation_node.py to navigation_node.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/robot_teleop_node.py to robot_teleop_node.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/stanly_navigation_node (another copy).py to stanly_navigation_node (another copy).cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/navigation_node_v2.py to navigation_node_v2.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/pose_calculator_node (copy).py to pose_calculator_node (copy).cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/pose_calculator_node (another copy).py to pose_calculator_node (another copy).cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/path_perimeter_node.py to path_perimeter_node.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/IMU_node.py to IMU_node.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/stanly_navigation_node_copy.py to stanly_navigation_node_copy.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/pose_calculator_node.py to pose_calculator_node.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/gps_subscriber_node.py to gps_subscriber_node.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/path_generator_node (copy).py to path_generator_node (copy).cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/navigation_node_v1.py to navigation_node_v1.cpython-310.pyc
+byte-compiling /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests/path_generator_node.py to path_generator_node.cpython-310.pyc
+running install_data
+creating /home/feroj/ros2_ws/install/tests/share/ament_index
+creating /home/feroj/ros2_ws/install/tests/share/ament_index/resource_index
+creating /home/feroj/ros2_ws/install/tests/share/ament_index/resource_index/packages
+copying resource/tests -> /home/feroj/ros2_ws/install/tests/share/ament_index/resource_index/packages
+copying package.xml -> /home/feroj/ros2_ws/install/tests/share/tests
+creating /home/feroj/ros2_ws/install/tests/share/tests/launch
+copying launch/ekf.launch.py -> /home/feroj/ros2_ws/install/tests/share/tests/launch
+creating /home/feroj/ros2_ws/install/tests/share/tests/config
+copying config/ekf.yaml -> /home/feroj/ros2_ws/install/tests/share/tests/config
+running install_egg_info
+Copying ../../build/tests/tests.egg-info to /home/feroj/ros2_ws/install/tests/lib/python3.10/site-packages/tests-0.0.0-py3.10.egg-info
+running install_scripts
+Installing IMU_node script to /home/feroj/ros2_ws/install/tests/bin
+Installing abd_collivoid_node script to /home/feroj/ros2_ws/install/tests/bin
+Installing abd_stannav_node script to /home/feroj/ros2_ws/install/tests/bin
+Installing collision_avoidance_node script to /home/feroj/ros2_ws/install/tests/bin
+Installing gps_subscriber_node script to /home/feroj/ros2_ws/install/tests/bin
+Installing navigation_node script to /home/feroj/ros2_ws/install/tests/bin
+Installing path_generator_node script to /home/feroj/ros2_ws/install/tests/bin
+Installing path_perimeter_node script to /home/feroj/ros2_ws/install/tests/bin
+Installing path_planning_node script to /home/feroj/ros2_ws/install/tests/bin
+Installing pose_calculator_node script to /home/feroj/ros2_ws/install/tests/bin
+Installing robot_teleop_node script to /home/feroj/ros2_ws/install/tests/bin
+Installing stanly_navigation_node script to /home/feroj/ros2_ws/install/tests/bin
+Installing stanly_navigation_node_original script to /home/feroj/ros2_ws/install/tests/bin
+writing list of installed files to '/home/feroj/ros2_ws/build/tests/install.log'

@@ -1,0 +1,685 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <link name="base_link">
+    <origin rpy="0 0 0" xyz="0 0 0" />
+  </link>
+  <link
+    name="chassis">
+    <inertial>
+      <origin
+        xyz="0.0374140021041951 -0.000373005187591258 -0.0771282894414029"
+        rpy="0 0 0" />
+      <mass
+        value="50" />
+      <inertia
+        ixx="0.123215829336501"
+        ixy="-2.51201031615063E-06"
+        ixz="0.00480100638469038"
+        iyy="0.219144715482931"
+        iyz="-1.0329581476775E-05"
+        izz="0.313606030126045" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hunter_description/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hunter_description/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="chassis" />
+  </joint>
+  <link
+    name="fr_steer_left_link">
+    <inertial>
+      <origin
+        xyz="-0.0002776492198312 0.0163539773588368 4.97346169803237E-09"
+        rpy="0 0 0" />
+      <mass
+        value="3.149" />
+      <inertia
+        ixx="0.0222"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.0222"
+        iyz="0.0"
+        izz="0.0378075" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <box size="0.001 0.001 0.001"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.223529411764706 0.223529411764706 0.223529411764706 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <box size="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fr_steer_left_joint"
+    type="revolute">
+    <origin
+      xyz="0.34058 0.24619 -0.1535"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="fr_steer_left_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.69"
+      upper="0.69"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="fr_left_link">
+    <inertial>
+      <origin
+        xyz="-3.5837499634539E-10 4.97346158701006E-09 -0.016356334080185"
+        rpy="0 0 0" />
+      <mass
+        value="3.149" />
+      <inertia
+        ixx="0.0222"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.0222"
+        iyz="0.0"
+        izz="0.0378075" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hunter_description/meshes/fr_left_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.223529411764706 0.223529411764706 0.223529411764706 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hunter_description/meshes/fr_left_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fr_left_joint"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5708 0 0.016976" />
+    <parent
+      link="fr_steer_left_link" />
+    <child
+      link="fr_left_link" />
+    <axis
+      xyz="0 0 -1" />
+     <dynamics damping="0.0" friction="0"/>      
+  </joint>
+  <link
+    name="fr_steer_right_link">
+    <inertial>
+      <origin
+        xyz="0.000274981985673328 -0.0163540222836661 -3.24802407192237E-11"
+        rpy="0 0 0" />
+      <mass
+        value="3.149" />
+      <inertia
+        ixx="0.0222"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.0222"
+        iyz="0.0"
+        izz="0.0378075" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <box size="0.001 0.001 0.001"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <box size="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fr_steer_right_joint"
+    type="revolute">
+    <origin
+      xyz="0.34219 -0.24619 -0.1535"
+      rpy="0 0 0" />
+    <parent
+      link="chassis" />
+    <child
+      link="fr_steer_right_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.69"
+      upper="0.69"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="fr_right_link">
+    <inertial>
+      <origin
+        xyz="0.00027498198567355 3.24801296969213E-11 -0.0163540222836661"
+        rpy="0 0 0" />
+      <mass
+        value="3.149" />
+      <inertia
+        ixx="0.0222"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.0222"
+        iyz="0.0"
+        izz="0.0378075" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hunter_description/meshes/fr_right_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.223529411764706 0.223529411764706 0.223529411764706 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hunter_description/meshes/fr_right_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fr_right_joint"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="fr_steer_right_link" />
+    <child
+      link="fr_right_link" />
+    <axis
+      xyz="0 0 1" />
+    <dynamics damping="0.0" friction="0"/>
+  </joint>
+
+  <link
+    name="re_left_link">
+    <inertial>
+      <origin
+        xyz="1.245E-09 1.7252E-06 -0.010284"
+        rpy="0 0 0" />
+      <mass
+        value="3.149" />
+      <inertia
+        ixx="0.0222"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.0222"
+        iyz="0.0"
+        izz="0.0378075" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hunter_description/meshes/re_left_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.37647 0.37647 0.37647 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hunter_description/meshes/re_left_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="re_left_joint"
+    type="continuous">
+    <origin
+      xyz="-0.2078 0.252 -0.158"
+      rpy="1.5708 0 0" />
+    <parent
+      link="chassis" />
+    <child
+      link="re_left_link" />
+    <axis
+      xyz="0 0 -1" />
+    <dynamics damping="0.0" friction="0.1"/>
+  </joint>
+  <link
+    name="re_right_link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="3.149" />
+      <inertia
+        ixx="0.0222"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.0222"
+        iyz="0.0"
+        izz="0.0378075" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hunter_description/meshes/re_right_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hunter_description/meshes/re_right_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="re_right_joint"
+    type="continuous">
+    <origin
+      xyz="-0.2078 -0.252 -0.158"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="chassis" />
+    <child
+      link="re_right_link" />
+    <axis
+      xyz="0 0 1" />
+    <dynamics damping="0.0" friction="0.1"/>
+  </joint>
+  <xacro:property name="camera_mass" value="0.0615752"/>
+  <xacro:property name="camera_ixx" value="9.108e-05"/>
+  <xacro:property name="camera_iyy" value="2.51e-06"/>
+  <xacro:property name="camera_izz" value="8.931e-05"/>
+  <xacro:property name="camera_width" value="1280"/>
+  <xacro:property name="camera_height" value="720"/>
+  <xacro:property name="camera_format" value="RGB8"/>
+  <xacro:property name="camera_fov" value="1.047"/>
+  <xacro:property name="camera_near_clip" value="0.1"/>
+  <xacro:property name="camera_far_clip" value="100"/>
+  <xacro:property name="imu_update_rate" value="100"/>
+
+  <!-- Realsense Camera Link -->
+  <link name="realsense_link">
+    <inertial>
+      <mass value="0.0615752"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="9.108e-05" iyy="2.51e-06" izz="8.931e-05" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://hunter_description/meshes/realsense.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.0078 0.13 0.0192"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="realsense_left_link">
+    <inertial>
+      <mass value="${camera_mass}"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="${camera_ixx}" iyy="${camera_iyy}" izz="${camera_izz}" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://hunter_description/meshes/realsense.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.0078 0.13 0.0192"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="left_camera_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="realsense_left_link"/>
+    <origin xyz="0.2 0.25 0.15" rpy="0 0 1.5708"/> <!-- Facing left -->
+  </joint>
+
+
+  <link name="realsense_right_link">
+    <inertial>
+      <mass value="${camera_mass}"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="${camera_ixx}" iyy="${camera_iyy}" izz="${camera_izz}" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://hunter_description/meshes/realsense.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.0078 0.13 0.0192"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="right_camera_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="realsense_right_link"/>
+    <origin xyz="0.2 -0.25 0.15" rpy="0 0 -1.5708"/> <!-- Facing right -->
+  </joint>
+
+
+
+  <!-- Camera Sensor Plugins -->
+
+  <!-- Color Camera Plugin -->
+  <gazebo reference="realsense_link">
+    <sensor name="color_camera" type="camera">
+      <pose>0 -0.046 0.004 0 0 0</pose>
+      <camera>
+        <horizontal_fov>${camera_fov}</horizontal_fov>
+        <image>
+          <width>${camera_width}</width>
+          <height>${camera_height}</height>
+          <format>RGB_INT8</format>
+        </image>
+        <clip>
+          <near>${camera_near_clip}</near>
+          <far>${camera_far_clip}</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <plugin name="realsense_color_plugin" filename="libgazebo_ros_camera.so">
+        <ros>
+          <namespace>/camera/color</namespace>
+          <remapping>image_raw:=/camera/color/image_raw</remapping>
+        </ros>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <!-- Infrared 1 Camera Plugin -->
+  <gazebo reference="realsense_link">
+    <sensor name="infrared1_camera" type="camera">
+      <pose>0 -0.06 0.004 0 0 0</pose>
+      <camera>
+        <horizontal_fov>${camera_fov}</horizontal_fov>
+        <image>
+          <width>${camera_width}</width>
+          <height>${camera_height}</height>
+          <format>L_INT8</format>
+        </image>
+        <clip>
+          <near>${camera_near_clip}</near>
+          <far>${camera_far_clip}</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <plugin name="realsense_infrared1_plugin" filename="libgazebo_ros_camera.so">
+        <ros>
+          <namespace>/camera/infrared1</namespace>
+          <remapping>image_raw:=/camera/infrared1/image_raw</remapping>
+        </ros>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <!-- Infrared 2 Camera Plugin -->
+  <gazebo reference="realsense_link">
+    <sensor name="infrared2_camera" type="camera">
+      <pose>0 0.01 0.004 0 0 0</pose>
+      <camera>
+        <horizontal_fov>${camera_fov}</horizontal_fov>
+        <image>
+          <width>${camera_width}</width>
+          <height>${camera_height}</height>
+          <format>L_INT8</format>
+        </image>
+        <clip>
+          <near>${camera_near_clip}</near>
+          <far>${camera_far_clip}</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <plugin name="realsense_infrared2_plugin" filename="libgazebo_ros_camera.so">
+        <ros>
+          <namespace>/camera/infrared2</namespace>
+          <remapping>image_raw:=/camera/infrared2/image_raw</remapping>
+        </ros>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <!-- Depth Camera Plugin -->
+  <gazebo reference="realsense_link">
+    <sensor name="depth_camera" type="depth">
+      <pose>0 -0.03 0.004 0 0 0</pose>
+      <camera>
+        <horizontal_fov>${camera_fov}</horizontal_fov>
+        <image>
+          <width>${camera_width}</width>
+          <height>${camera_height}</height>
+        </image>
+        <clip>
+          <near>0.1</near>
+          <far>10</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <plugin name="realsense_depth_plugin" filename="libgazebo_ros_camera.so">
+        <ros>
+          <namespace>/camera/depth</namespace>
+          <remapping>image_raw:=/camera/depth/image_raw</remapping>
+        </ros>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+
+  <gazebo reference="realsense_left_link">
+    <sensor name="depth_camera_left" type="depth">
+      <pose>0 0 0 0 0 0</pose>
+      <camera>
+        <horizontal_fov>${camera_fov}</horizontal_fov>
+        <image>
+          <width>${camera_width}</width>
+          <height>${camera_height}</height>
+        </image>
+        <clip>
+          <near>0.1</near>
+          <far>10</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0</mean>
+          <stddev>0.007</stddev>  <!-- Typical depth stddev for simulation -->
+        </noise>
+      </camera>
+      <plugin name="realsense_left_depth_plugin" filename="libgazebo_ros_camera.so">
+        <ros>
+          <namespace>/camera_left/depth</namespace>
+          <remapping>image_raw:=/camera_left/depth/image_raw</remapping>
+        </ros>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+
+  <gazebo reference="realsense_right_link">
+    <sensor name="depth_camera_right" type="depth">
+      <pose>0 0 0 0 0 0</pose>
+      <camera>
+        <horizontal_fov>${camera_fov}</horizontal_fov>
+        <image>
+          <width>${camera_width}</width>
+          <height>${camera_height}</height>
+        </image>
+        <clip>
+          <near>0.1</near>
+          <far>10</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0</mean>
+          <stddev>0.007</stddev>  <!-- Typical depth stddev for simulation -->
+        </noise>
+      </camera>
+      <plugin name="realsense_right_depth_plugin" filename="libgazebo_ros_camera.so">
+        <ros>
+          <namespace>/camera_right/depth</namespace>
+          <remapping>image_raw:=/camera_right/depth/image_raw</remapping>
+        </ros>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+
+  <!-- IMU Sensor Plugin -->
+  <gazebo reference="realsense_link">
+    <sensor name="imu_sensor" type="imu">
+      <pose>0 0 0 0 0 0</pose>
+      <always_on>true</always_on>
+      <update_rate>${imu_update_rate}</update_rate>
+      <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
+        <ros>
+          <namespace>/camera/imu</namespace>
+          <remapping>imu/data:=/camera/imu/data</remapping>
+        </ros>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <gazebo reference="realsense_link">
+    <sensor name="gps_sensor" type="gps">
+      <pose>0 0 0 0 0 0</pose> <!-- Positioned at sensor_link origin -->
+      <always_on>1</always_on>
+      <update_rate>5</update_rate> <!-- Update rate changed from 1 to 5 -->
+      <gps>
+        <position_sensing>
+          <horizontal_position_error>1.0</horizontal_position_error> <!-- In meters -->
+          <vertical_position_error>1.0</vertical_position_error> <!-- In meters -->
+        </position_sensing>
+        <velocity_sensing>
+          <horizontal_velocity_error>0.1</horizontal_velocity_error> <!-- In meters/sec -->
+          <vertical_velocity_error>0.1</vertical_velocity_error> <!-- In meters/sec -->
+        </velocity_sensing>
+      </gps>
+      <plugin name="gps_plugin" filename="libgazebo_ros_gps_sensor.so">
+        <ros>
+          <namespace>/gps</namespace>
+          <remapping>fix:=/gps/fix</remapping>
+          <remapping>vel:=/gps/velocity</remapping>
+        </ros>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <joint name="base_to_sensor_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="realsense_link"/>
+    <origin xyz="0.15 0 0.25" rpy="0 0 0"/>
+  </joint>
+
+</robot>
